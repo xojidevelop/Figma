@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.hero {
+    background-color: #004047;
+    align-items: center;
+    background-image: url(../img/left.png),url(../img/bottom.png);
+    background-position:left, bottom right;
+    background-repeat: no-repeat;
+}
+h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-align:center;
+    color: #FFFFFF;
+}
+span{
+    color: #79C8C7;
+}
+.hero__list {
+    margin-left: 40px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
+img{
+    text-align: center;
+}
+.hero__info {
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.hero__info::before{
+    width: 67px;
+    height: 56px;
+    background-image: url(../img/tirnoq.png);
+    background: #2C6269;
+
+}
+h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #79C8C7;
+}
+
+i {
+    position: absolute;
+    font-size: 13px;
+    line-height: 18px;
+    margin-left: 107px;
+    margin-right: 100px;
+    text-align: center;
+    color: #FFFFFF;
+}
+img{
+    align-items: center;
+    border: 2px solid #C4FFFE;
+    border-radius: 50px;
+    margin-left: 135px;
+    margin-right: 115px;
+}
